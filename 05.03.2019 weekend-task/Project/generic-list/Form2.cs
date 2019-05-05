@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -22,12 +23,51 @@ namespace generic_list
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            
-            employer.Name = textBox1.Text;
-            employer.Surname = textBox2.Text;
-            employer.Email = textBox3.Text;
-            employer.Position = textBox4.Text;
-            employer.Salary = Convert.ToInt32(textBox5.Text);
+            if(!Regex.IsMatch(textBox1.Text, "^[a-zA-Z]+$"))
+            {
+                MessageBox.Show("Adi duz daxil edin");
+                ResetText();
+            }
+            else
+            {
+                employer.Name = textBox1.Text;
+            }
+            if (!Regex.IsMatch(textBox2.Text, "^[a-zA-Z]+$"))
+            {
+                MessageBox.Show("Soyadi duz daxil edin");
+                ResetText();
+            }
+            else
+            {
+                employer.Surname = textBox2.Text;
+            }
+            if (!Regex.IsMatch(textBox3.Text, @"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$"))
+            {
+                MessageBox.Show("Emaili duz daxil edin");
+                ResetText();
+            }
+            else
+            {
+                employer.Email = textBox3.Text;
+            }
+            if (!Regex.IsMatch(textBox2.Text, "^[a-zA-Z]+$"))
+            {
+                MessageBox.Show("Vezifeni duz daxil edin");
+                ResetText();
+            }
+            else
+            {
+                employer.Position = textBox4.Text;
+            }
+            if (!Regex.IsMatch(textBox5.Text, "^[0-9]+$"))
+            {
+                MessageBox.Show("Maasi duz daxil edin");
+                ResetText();
+            }
+            else
+            {
+                employer.Salary = Convert.ToInt32(textBox5.Text);
+            }
             employer.ID = counter++;
             employers.Add(employer);
             
