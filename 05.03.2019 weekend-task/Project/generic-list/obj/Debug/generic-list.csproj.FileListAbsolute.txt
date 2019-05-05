@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\obj\Debug\generic-list.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\obj\Debug\generic_list.Properties.Resources.resources
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\obj\Debug\generic-list.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\obj\Debug\generic-list.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\bin\Debug\generic-list.exe.config
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\bin\Debug\generic-list.exe
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\bin\Debug\generic-list.pdb
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\obj\Debug\generic-list.exe
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\obj\Debug\generic-list.pdb
+C:\Users\Admin\Desktop\05.03.2019 weekend-task\Project\generic-list\obj\Debug\generic_list.Form2.resources
